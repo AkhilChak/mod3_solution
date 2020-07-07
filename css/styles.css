@@ -1,0 +1,159 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Bangers;
+  src: url(../fonts/Bangers-Regular.ttf);
+}
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+body{
+  background-color: #FFCDD2; 
+}
+li{
+  color: #FFC107;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #FFF;
+  color: #000;
+  background-color:#F44336;
+  font-size: 3.5em;
+}
+h2 {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  text-decoration: none;
+  text-shadow: 2px;
+  color: #000;
+  background-color:#FFCDD2;
+  font-size: 2em;
+}
+nav div{
+  background-color: #F44336; 
+  display: block;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  background-color: #FFC107;
+  border: 1px solid #212121 ;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #FFCDD2;
+    border: 1px solid #FFC107;
+}
+.navbar-header a:hover {
+  text-decoration: none;
+}
+.navbar-header a {
+  float: left;
+  clear: left;
+  padding-left: 20px;
+}
+#navlist{
+  background-color:#F44336; 
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Bangers', cursive;
+}
+#nav-list a:hover ,#nav-list a:focus{
+  background: #FFC107;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/* Simple Responsive Framework. */
+div.container{
+  margin: 0px; 
+}
+div.row {
+  padding: 10px;
+  margin: 0px;
+}
+#header-nav{
+  border-radius: 0;
+  border: 0;
+}
+div.toplink a{
+  font-family:'Bangers',cursive;
+  text-decoration: none; 
+  color: #FFC107;
+  font-size: 1.3em;
+  text-shadow: 1px 1px 1px #000;
+  text-align: center;
+
+}
+
+#head1 {
+  background-color: #FFC107;
+  text-align: center;
+  font-size: 1.5em;
+  border-left: 1px solid #000000;
+  font-weight: bold;
+  border: 1px solid #000000;
+  font-family: 'Bangers', cursive;
+
+}
+#head2 {
+  background-color: #FFC107;
+  border-left: 1px solid #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 1px solid #000000;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+
+}
+#head3 {
+  background-color: #FFC107;
+  border-left: 1px solid #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 1px solid #000000;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+
+}
+#text1{
+  background-color: #F44336;
+  padding: 15px;
+  color:#FFFFFF; 
+  font-family: 'Raleway', sans-serif;
+  float: left;
+}
+#text2{
+  background-color: #F44336;
+  padding: 15px;
+  color:#FFFFFF; 
+  float: left;
+  font-family: 'Raleway', sans-serif;
+}
+#text3{
+  background-color: #F44336;
+  padding: 15px;
+  color:#FFFFFF; 
+  font-family: 'Raleway', sans-serif;
+  float: left;
+}
+
+
+div.inner-box{
+  box-sizing: border-box;
+  background-color: white;
+}
+.col-xs-12{
+  margin-top: 10px;
+}
+.col-lg-4, .col-md-4, .col-xs-12, .col-sm-6, .col-sm-12{
+  padding-right: 10px;
+}
